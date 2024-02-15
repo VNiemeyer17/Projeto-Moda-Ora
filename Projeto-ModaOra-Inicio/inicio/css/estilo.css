@@ -1,0 +1,121 @@
+:root{
+    --font-titles: "Italiana", sans-serif;
+    --font-padrao: "Roboto", sans-serif;
+    --cor-fontes:#555;
+}
+
+body{
+    color: #162028;
+}
+
+.pagina1__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: #162028;
+    margin: 0 ;
+    padding: 0.7rem;
+}
+
+.pagina1__menu a{
+    text-decoration: none;
+    font-family: var(--font-titles);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color:#fff;
+    margin: 10px 10px; 
+}
+
+.pagina1__menu ul{
+    margin: 1rem; 
+}
+
+.titulo{
+    font-family: var(--font-titles);
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    color: #fff;
+    margin:0 3rem;
+    
+}
+
+.imagem_mulher img{
+  width: 100%;    
+}
+
+.pagina2__texto{
+    text-align: center;
+
+}
+
+.pagina2__texto h2{
+    font-family: var(--font-titles);
+    font-size: 1.9rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+}
+
+.pagina2__texto p{
+    font-family: var(--font-padrao);
+    margin:1.5rem 14rem;
+    line-height: 2rem;
+}
+
+
+.pagina2__modelos{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    color: var(--cor-fontes);
+    font-family: var(--font-padrao);
+    text-align: center;
+}
+
+.pagina2__modelos h3{
+    color: #000;
+    font-family: var(--font-titles);
+    font-weight: 800;
+    text-transform: uppercase;
+ } 
+
+ .pagina2__modelos p{
+    font-weight: 500;
+    font-size: 12px;
+ }
+
+ .forum{
+    background-color: #003d52;
+    padding: 6em;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 2rem 0 0;
+    height: 70vh;
+ }
+
+ .forum__title{
+    font-family: var(--font-titles);
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+ }
+
+ .forum__cab{
+    font-family: var(--font-padrao);
+    line-height: 2rem;
+    font-size: 1rem;
+    margin: 1rem 19rem 0 0;
+ }
+
+ footer{
+    background-color:#162028;
+    color: var(--cor-fontes);
+    font-family: var(--font-padrao);
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 1.5rem;
+ }
